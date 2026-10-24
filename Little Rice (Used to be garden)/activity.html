@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LCB6336-Activity</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<header class="bar">
+<div class="left">
+<div class="dropdown">
+	<button onclick="Nav()" class="dropbtn">
+    <img src="img/Leaf.png" class="leafImg dropbtn" alt="Leaf.png">
+    </button></div>
+
+    <div id="myDropdown" class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="activity.html">Activity</a>
+        <a href="deep-dive.html">Deep Dive</a>
+        <a href="faqs.html">FAQs</a>
+    </div>
+</div>
+<div class="title">
+	<h1>Activity</h1>
+</div>
+</header>
+<main class="container">
+	<div class="activity-container">
+    <h2 class="AcT">Quiz!</h2>
+
+    <p class="score">Score: <span id="scoreValue">0</span></p>
+
+    <p>Select all the actions that are GOOD for caring for a plant:</p>
+
+    <div class="options">
+        <button class="option" data-correct="true">Water during cool hours.</button>
+        <button class="option" data-correct="false">Water anytime.</button>
+        <button class="option" data-correct="true">Do not over expose plants to sunlight.</button>
+        <button class="option" data-correct="true">Fertilize the soil.</button>
+        <button class="option" data-correct="false">Keep certain pests.</button>
+        <button class="option" data-correct="false">Allow weeds to stay.</button>
+    </div>
+
+    <button class="reset-btn">Try Again</button>
+
+    <p class="feedback"></p>
+</div>
+</main>
+<footer class="btmBar"></footer>
+<script src="script.js"></script>
+</html>

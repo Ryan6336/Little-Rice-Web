@@ -84,7 +84,6 @@ header img {
 }
 
 .order-section h1 {
-	font-family: Arial, sans-serif;
 	font-weight: bold;
     font-size: 35px;
     color: #fae8e5;
@@ -92,7 +91,6 @@ header img {
 }
 
 .order-section p {
-	font-family: Arial, sans-serif;
 	font-weight: bold;
     color: #fae8e5;
 
@@ -138,7 +136,6 @@ header img {
 .food-card h3 {
     font-size: 30px;
     font-weight: bold;
-    font-family: Arial, sans-serif;
     color: #5C4033;
 }
 

@@ -2,6 +2,16 @@
 	box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'ES Campur';
+    src: url('./fonts/ESCAMPURENAK.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'ES Campur', sans-serif;
+}
+
 body {
 	font-size: 20px;
 	margin: 0px;
@@ -192,4 +202,12 @@ header img {
 
 .cart button:hover {
     background-color: #55453e; 
+}
+
+body, h1, h2, h3, h4, h5, h6,
+p, a, span, div, button,
+input, textarea, select, label,
+li, td, th {
+    font-family: 'ES Campur', sans-serif !important;
+  letter-spacing: 2px;
 }

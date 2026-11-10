@@ -53,7 +53,10 @@ body {
 }
 
 .site-nav a:hover {
-  color: #c48b85;
+  color: whitesmoke;
+	background-color: rosybrown;
+	border-radius: 20px;
+	transition: background-color 0.6s ease;
 }
 
 /*main menu layout*/

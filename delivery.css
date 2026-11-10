@@ -2,11 +2,18 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'ES Campur';
+    src: url('./fonts/ESCAMPURENAK.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: 'Trebuchet MS', sans-serif;
     background-image: url("img/7.jpg");
     margin-top: 200px;
-   
+    font-family: 'ES Campur', sans-serif;
 }
 
 
@@ -144,5 +151,12 @@ header img {
     display: block;
     text-decoration: none;
     margin: 10px 0;
-   
+}
+
+body, h1, h2, h3, h4, h5, h6,
+p, a, span, div, button,
+input, textarea, select, label,
+li, td, th {
+    font-family: 'ES Campur', sans-serif;
+  letter-spacing: 2px;
 }

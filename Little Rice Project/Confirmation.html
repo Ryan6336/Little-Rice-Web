@@ -1,0 +1,81 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="payment.css">
+	<title>Order confirmed</title>
+</head>
+<body>
+
+ <div id="loading-screen">
+  <div class="spinner"></div>
+  <p>Processing Order...</p>
+   </div>
+       
+       <div class="container"> 
+  <header class="top">
+    <div class="brand">
+        </header>
+
+        <nav class="steps-nav">
+            <div class="s-item">1. Order Items</div>
+            <div class="s-item">2. Choose Item</div>
+            <div class="s-item">3. Bank & Checkout</div>
+            <div class="s-item active-step">4. Confirmation</div>
+        </nav>
+
+ <section class="main-form confirmation-page">
+  <img src="check-mark.png">
+        <h3>Order Successful</h3>
+        <p class="small-note">Thank you so much, we hope to see you again soon!</p>
+
+        <div class="info-panel receipt">
+            <p class="oid">Order Summary</p>
+
+            <div class="r-sec">
+                <p>Item(s):</p>
+                <ul class="r-list">
+                    <li>Set(A) <span>$</span></li>
+                    <li>Set(B) <span>$</span></li>
+                </ul>
+            </div>
+
+            <div class="r-sec">
+                <p>Total charged : $</p>
+            </div>
+
+            <div class="r-sec">
+              <p>Payment Method: <span id="payMethodDisplay"></span></p>     
+        </div>
+
+        <div class="r-sec">
+    <p>Item(s):</p>
+    <ul class="r-list" id="cart-list">
+    </ul>
+</div>
+
+<div class="r-sec">
+    <p>Total charged : <span id="cart-total-display">$0</span></p>
+</div>
+
+<div class="r-sec">
+    <p>Payment Method: <span id="payMethodDisplay"></span></p>
+</div>
+
+<div id="bankDetailsBox" style="display: none; text-align: left; margin-top: 15px; padding: 15px; background-color: #f4f4f4; border-radius: 8px; font-size: 14px; line-height: 1.5;">
+    <strong>Bank Transfer Details:</strong><br><br>
+    <strong>Baiduri Bank</strong><br>
+    02-00-740-270359<br>
+    Goh Hock Chuan<br><br>
+
+    <strong>BIBD Bank</strong><br>
+    00-001-02-045469-2<br>
+    Goh Hock Chuan<br><br>
+
+    <em>Please send us your payment receipt/screenshot once payment has been made. Thank you! 🤲🏼🙏🏼</em>
+</div>
+</div>
+
+<script src="pay.js"></script>
+</body>
+</html>

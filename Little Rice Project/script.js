@@ -38,5 +38,7 @@ function addToCart(name, price) {
         total.toFixed(2);
 }
 
-
+function checkout() {
+    window.location.href = 'checkout.html'; 
+}
 

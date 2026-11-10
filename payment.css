@@ -203,17 +203,19 @@ body {
 }
 
 .footer-section p {
-    font-size: 15px;
-    color: rosybrown;
-    font-weight: bold;
+	font-size: 15px;
+	color: rosybrown;
+	font-weight: bold;
 }
 
 .footer-section a {
     display: block;
     text-decoration: none;
     margin: 10px 0;
+   
 }
 
+/* Copyright section */
 .footer-bottom {
     border-top: 1px solid #756154;
     text-align: center;

@@ -5,6 +5,16 @@
   box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'ES Campur';
+    src: url('./fonts/ESCAMPURENAK.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'ES Campur', sans-serif;
+}
+
 body {
   background-color: #f3ddda;
 }
@@ -18,7 +28,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: Arial, sans-serif;
 }
 
 .site-logo img {
@@ -75,7 +84,6 @@ body {
 }
 
 .brand h2 {
-  font-family: Arial, sans-serif;
   font-size: 55px;
   font-weight: 600;
   letter-spacing: 5px;
@@ -88,7 +96,6 @@ body {
 
 .header h1 {
   margin: 45px 0 30px;
-  font-family: Arial, sans-serif;
   font-size: clamp(55px, 10vw, 90px);
   font-weight: 600;
   letter-spacing: 5px;
@@ -153,7 +160,6 @@ body {
 }
 
 .note-content h2 {
-  font-family: Arial, sans-serif;
   font-size: clamp(18px, 3vw, 32px);
   margin-bottom: 10px;
 }
@@ -252,7 +258,6 @@ body {
 }
 
 .side-box h2 {
-  font-family: Arial, sans-serif;
   font-size: 29px;
   letter-spacing: 2px;
   margin-bottom: 10px;
@@ -364,7 +369,6 @@ width: 100px;
   background-color: #f5f2ea;
   display: flex;
   align-items: center;
-  font-family: Arial, sans-serif;
 }
 
 .footer-content {
@@ -401,3 +405,10 @@ width: 100px;
   transform: scale(1.15);
 }
 
+body, h1, h2, h3, h4, h5, h6,
+p, a, span, div, button,
+input, textarea, select, label,
+li, td, th {
+    font-family: 'ES Campur', sans-serif !important;
+  letter-spacing: 2px;
+}

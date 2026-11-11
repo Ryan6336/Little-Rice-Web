@@ -35,7 +35,8 @@
     animation-delay: 4s;
 }
 
-/* Delete any nth-child(3) or nth-child(4) rules you have */
+.gallery-scroll img:nth-child(3) {
+	animation-delay: 8s;
 
 @keyframes fadeFood {
     0% {

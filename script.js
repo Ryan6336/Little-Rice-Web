@@ -5,7 +5,6 @@ window.addEventListener("load", function() {
     }, 4000);
 });
 
-
 let total = 0;
 
 function addToCart(name, price) {
@@ -16,14 +15,12 @@ function addToCart(name, price) {
         cart.innerHTML = "";
     }
 
-   
     let item = document.createElement("p");
 
     item.innerHTML = name + " - $" + price.toFixed(2);
 
     cart.appendChild(item);
-
-    
+  
     total = total + price;
 
     document.getElementById("total").innerHTML =

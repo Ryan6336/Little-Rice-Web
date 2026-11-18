@@ -21,16 +21,13 @@
     height: 100%;
     object-fit: cover;
     opacity: 0;
-    /* Total loop is 8 seconds */
     animation: fadeFood 8s infinite; 
 }
 
-/* First image is visible for the first 4 seconds */
 .gallery-scroll img:nth-child(1) {
     animation-delay: 0s;
 }
 
-/* Second image starts halfway through the first image's cycle (at 4s) */
 .gallery-scroll img:nth-child(2) {
     animation-delay: 4s;
 }
@@ -42,19 +39,19 @@
     0% {
         opacity: 0;
     }
-    /* Fades in during the first 10% (0.8s) */
+   
     10% {
         opacity: 1;
     }
-    /* Stays visible until 40% (3.2s) */
+    
     40% {
         opacity: 1;
     }
-    /* Fades out by 50% (4s mark), exactly when the next image starts fading in */
+    
     50% {
         opacity: 0;
     }
-    /* Stays invisible for the rest of the 8s cycle */
+   
     100% {
         opacity: 0;
     }
@@ -226,7 +223,6 @@ header img {
 	font-size: 15px;
 }
 
-
 .navbutton {
     gap: 50px;
     padding: 50px 30px;
@@ -286,21 +282,17 @@ header img {
 	height: 100px;
 }
 
-
-/* Hover effect */
 .circle:hover {
     transform: scale(1.08);
     background-color: #f5f2ea;
     color: rosybrown;
 }
 
-/* Footer */
 .footer {
     background-color: #f5f2ea;
     width: 100%;
 }
 
-/* Three columns */
 .footer-content {
     display: flex;
     justify-content: flex-start;
@@ -348,7 +340,6 @@ header img {
    
 }
 
-/* Copyright section */
 .footer-bottom {
     border-top: 1px solid #756154;
     text-align: center;

@@ -1,4 +1,3 @@
-/*general styling*/
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +18,6 @@ body {
   background-color: #f3ddda;
 }
 
-/*website header*/
 .site-header {
   width: 100%;
   height: 75px;
@@ -55,7 +53,6 @@ body {
   color: #c48b85;
 }
 
-/*main menu layout*/
 .menu-page {
   width: 90%;
   max-width: 900px;
@@ -103,7 +100,6 @@ body {
   color: #806a66;
 }
 
-/*menu title & date*/
 .title h2 {
   font-size: 60px;
   text-align: center;
@@ -131,7 +127,6 @@ body {
   white-space: nowrap;
 }
 
-/* Main dishes and sticky notes */
 .menu-sets {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -175,7 +170,6 @@ body {
   font-size: clamp(18px, 2.5vw, 27px);
 }
 
-/*hover effects*/
 .expandable {
   position: relative;
   cursor: pointer;
@@ -200,7 +194,6 @@ body {
   z-index: 20;
 }
 
-/*dish descriptions*/
 .dish-description {
   max-height: 0;
   opacity: 0;
@@ -225,7 +218,6 @@ body {
   margin-top: 12px;
 }
 
-/*included sides*/
 .includes {
   position: relative;
   margin-top: 55px;
@@ -280,7 +272,6 @@ body {
   font-size: 35px;
 }
 
-/*add on*/
 .addon {
   margin-top: 45px;
   text-align: center;
@@ -317,7 +308,6 @@ width: 100px;
   font-weight: normal;
 }
 
-/*ordering info*/
 .order-info {
   text-align: center;
   margin: 35px 0;
@@ -343,7 +333,6 @@ width: 100px;
   letter-spacing: 1px;
 }
 
-/*menu footer*/
 .footer {
   display: flex;
   justify-content: space-between;
@@ -361,7 +350,6 @@ width: 100px;
   text-decoration: none;
 }
 
-/*site footer*/
 .site-footer {
   width: 100%;
   min-height: 65px;

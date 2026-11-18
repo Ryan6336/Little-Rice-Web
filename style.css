@@ -39,28 +39,22 @@
     0% {
         opacity: 0;
     }
-   
     10% {
         opacity: 1;
     }
-    
     40% {
         opacity: 1;
     }
-    
     50% {
         opacity: 0;
     }
-   
     100% {
         opacity: 0;
     }
 }
-
 * {
 	box-sizing: border-box;
 }
-
 @font-face {
     font-family: 'ES Campur';
     src: url('./fonts/ESCAMPURENAK.ttf') format('truetype');
@@ -70,13 +64,11 @@
 body {
     font-family: 'ES Campur', sans-serif;
 }
-
 body {
 	font-size: 20px;
 	margin: 0;
 	padding: 0;
 }
-
 #homepage {
 	display: flex;
 	flex-direction: column;
@@ -89,7 +81,6 @@ body {
 	width: 100%;
 	min-height: 100vh;
 }
-
 header {
 	background-color: #f5f2ea;
 	width: 100%;
@@ -138,7 +129,6 @@ header img {
 	border-radius: 20px;
 	transition: background-color 0.6s ease;
 }
-
 .food-gallery {
     margin-top: 100px;
     width: 100%;
@@ -185,25 +175,19 @@ header img {
     0% {
         opacity: 0;
     }
-
     6.25% {
         opacity: 1;
     }
-
     25% {
         opacity: 1;
     }
-
     31.25% {
         opacity: 0;
     }
-
     100% {
         opacity: 0;
     }
 }
-
-
 .order{
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -211,18 +195,15 @@ header img {
 	text-align: left;
 	font-family: Arial, sans-serif;
 }
-
 .order h1 {
 	font-size: 40px;
 	text-align: center;
 	color: #fae8e5;
 }
-
 .order p {
 	text-align: center;
 	font-size: 15px;
 }
-
 .navbutton {
     gap: 50px;
     padding: 50px 30px;
@@ -244,7 +225,6 @@ header img {
 	font-family: Arial, sans-serif;
 	font-weight: bold;
 }
-
 .circle {
 	display: flex;
 	justify-content: center;
@@ -306,7 +286,6 @@ header img {
 	width: 22px;
 	height: 22px;
 }
-
 .instagram-logo {
 	width: 22px;
 	height: 22px;
@@ -316,7 +295,6 @@ header img {
 	width: 25px;
 	height: 25px;
 }
-
 .footer-section {
    display: flex;
    justify-content: flex-start;
@@ -326,27 +304,23 @@ header img {
    margin-top: 10px;
    margin-bottom: 10px;
 }
-
 .footer-section p {
 	font-size: 15px;
 	color: rosybrown;
 	font-weight: bold;
 }
-
 .footer-section a {
     display: block;
     text-decoration: none;
     margin: 10px 0;
    
 }
-
 .footer-bottom {
     border-top: 1px solid #756154;
     text-align: center;
     padding-top: 15px;
     font-size: 13px;
 }
-
 body, h1, h2, h3, h4, h5, h6,
 p, a, span, div, button,
 input, textarea, select, label,
